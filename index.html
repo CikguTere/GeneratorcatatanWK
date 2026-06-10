@@ -319,7 +319,16 @@
         // =========================================================================
         // 🔑 API KEY KONFIGURASI OTOMATIS
         // =========================================================================
-        const apiKey = ""; // Dikelola otomatis oleh runtime environment aplikasi
+        const firebaseConfig = {
+            apiKey: "AIzaSyDvDNE132rCf-N7oPwJJBpu_Cq4UPc8P5g",
+            authDomain: "generator-catatan.firebaseapp.com",
+            projectId: "generator-catatan",
+            storageBucket: "generator-catatan.firebasestorage.app",
+            messagingSenderId: "35166332839",
+            appId: "1:35166332839:web:93e9aa2390d5142a17f882",
+            measurementId: "G-38T1MH8N0T"
+        };
+        const apiKey = firebaseConfig.apiKey;
         // =========================================================================
 
         // Struktur data siswa yang komprehensif (setiap siswa menyimpan pilihan dimensinya sendiri)
